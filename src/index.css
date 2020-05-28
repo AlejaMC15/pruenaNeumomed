@@ -1,7 +1,35 @@
-/*@media (max-width: 576px)
-nav {
-    max-width: 120px;
-}*/
+@media (max-width: 576px) {
+  .sectiontwo img {
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectiontwo img {
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 960px) {
+  .sectiontwo img {
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1140px) {
+  .sectiontwo img {
+    padding: 40px 20px 40px 20px;
+    align-items: center;
+    justify-content: centerl;
+  }
+}
+
 
 header {
   margin-left: 105px;
@@ -21,10 +49,13 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  font-weight: 900;
 }
 
-h6 {
+.sectiontwo h6 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 900;
 }
 
 p {
@@ -60,8 +91,7 @@ li {
   width: 40vw;
 }
 
-#_MG_5091 {
-  width: 1000px;
+.sectiontwo img { 
   border-radius: 235px 38px 174px 51px;
 }
 
@@ -71,12 +101,62 @@ li {
   padding: 110px;
 }
 
+.sectiontwo img {
+  width: 900px;
+}
+
 span {
   color: black;
 }
 
 iframe {
+  z-index: 3;
+  position: absolute;
+  height: 320px;
+  width: 700px;
+  padding: 0px;
+  border-width: 0px;
   margin: 0px;
-  width: 300px;
-  height: auto;
+  left: 0px;
+  top: 0px;
+  touch-action: pan-x pan-y;
+  max-width: 100%;
+  display: block;
+}
+
+.titleNeumomed {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.textone {
+  font-weight: 500;
+}
+
+.sectionfour {
+  background-color: #3A899A;
+  color: white;
+  padding: 20px;
+  height: 60vh;
+}
+
+footer {
+  background-color: #3A899A;
+  color: white;
+  height: 7vh;
+  font-weight: 900;
+}
+
+.sectionthree h3 {
+  color: #3A899A;
+  font-weight: 900;
+}
+
+.sectiontwo p {
+  font-size: 18px;
+}
+
+.sectionthree {
+  margin: 150px;
+  align-items: center;
 }

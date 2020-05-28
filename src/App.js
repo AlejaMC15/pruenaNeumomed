@@ -2,7 +2,6 @@ import React from 'react';
 import './index.css';
 import Logo from './component/RecursoWeb/Logo-Oficial.png';
 import Banner1 from './component/RecursoWeb/Banner 1.jpg';
-import Banner2 from './component/RecursoWeb/Banner 2.jpg';
 import Banner3 from './component/RecursoWeb/Banner 3.jpg';
 import Banner4 from './component/RecursoWeb/Banner 4.jpg';
 import Banner5 from './component/RecursoWeb/Banner 5.jpg';
@@ -36,11 +35,17 @@ function App() {
               <div class="carousel-item active" data-interval="10000">
                 <img src={Banner1} class="d-block w-100" alt="..." />
               </div>
-              <div class="carousel-item" data-interval="2000">
-                <img src={Banner2} class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-interval="10000">
                 <img src={Banner3} class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item" data-interval="10000">
+                <img src={Banner4} class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item" data-interval="10000">
+                <img src={Banner5} class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item" data-interval="10000">
+                <img src={Banner6} class="d-block w-100" alt="..." />
               </div>
             </div>
           </a>
@@ -59,12 +64,12 @@ function App() {
           <div className="row">
             <div className="col-sm">
               <div className="linea"></div>
-              <h6>NEUMOMED</h6>
-              <h1>Neumomed IPS</h1>
-              <p>Ofrece una atención integral a pacientes con enfermedades respiratorias y trastornos del sueño</p>
+              <h6>NEUMOMED</h6> <br />
+              <h1 className="titleNeumomed">Neumomed IPS</h1> <br />
+              <p className="textone">Ofrece una atención integral a pacientes con enfermedades respiratorias y trastornos del sueño.</p>
             </div>
             <div className="col-sm">
-              <img className="img-fluid img-responsive" id="_MG_5091" src={_MG_5091} alt="" />
+              <img className="img-fluid" src={_MG_5091} alt="" />
             </div>
           </div>
         </div>
@@ -100,25 +105,34 @@ function App() {
               </ul>
             </div>
           </div>
-        </div>        
+        </div>
       </section>
       <section className="sectionfour">
-        <div class="container">
+        <div class="container justify-content-left display-block">
           <div class="row">
             <div class="col-sm">
-              <h3>Medellín</h3>
-              <p>Calle 19A # 44-25 Local 206 Edificio Salud y Servicios.</p>
+              <div className="container">
+                <div className="row">
+                  <div className="col-sm">
+                    <h3>Medellín</h3>
+                    <p>Calle 19A # 44-25 Local 206 Edificio Salud y Servicios.</p>
+                  </div>
+                  <div className="col-sm">
+                    <h3>Rionegro</h3>
+                    <p>Carrera 55 A #35- 2027, piso 4 Cs 402-404  Torre 2, City Médica.</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="col-sm">
-              <h3>Rionegro</h3>
-              <p>Carrera 55 A #35- 2027, piso 4 Cs 402-404  Torre 2, City Médica.</p>
-            </div>
-            <div class="col-sm">
-            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Neumomed&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" aria-label="Neumomed"></iframe>
+              <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Neumomed&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" aria-label="Neumomed"></iframe>
             </div>
           </div>
         </div>
       </section>
+      <footer className="text-center">
+        <p><a className="text-white" href="https://neumomed.com/#/" rel="nofollow">Neumomed</a> | Todos los derechos reservados 2020</p>
+      </footer>
     </div>
   );
 }
