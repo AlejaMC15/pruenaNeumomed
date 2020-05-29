@@ -1,40 +1,12 @@
-@media (max-width: 576px) {
-  .sectiontwo img {
-    padding: 20px 20px 20px 20px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 768px) {
-  .sectiontwo img {
-    padding: 20px 20px 20px 20px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 960px) {
-  .sectiontwo img {
-    padding: 20px 20px 20px 20px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 1140px) {
-  .sectiontwo img {
-    padding: 40px 20px 40px 20px;
-    align-items: center;
-    justify-content: centerl;
-  }
-}
-
-
 header {
-  margin-left: 105px;
   max-width: 100%;
-  padding: 5px;
+  min-width: 100%;
+}
+
+header img {
+  max-width: 100%;
+  min-width: 100%;
+  margin-left: 0px;
 }
 
 h1 {
@@ -80,29 +52,38 @@ li {
   letter-spacing: 3px;
 }
 
-.linea {
-  border-bottom: solid 2px #366B82;
-  margin: 20px;
-  padding: 15px;
-  width: auto;
+.lineone {
+  border-top: solid 2px #366B82;
+  margin: 50px;
+  margin-left: 0px;
+  align-items: center;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.linetwo {
+  border-bottom: solid 2px black;
+  margin: 60px;
+  padding: 0px;
+  width: 260px;
   height: 2px;
   margin-left: 0px;
   align-items: center;
-  width: 40vw;
+  max-width: 100%;
 }
 
 .sectiontwo img { 
   border-radius: 235px 38px 174px 51px;
+  align-items: center;
+  width: 100%;
 }
 
 .sectiontwo {
   background-color: #2A2D30;
   color: white;
-  padding: 110px;
-}
-
-.sectiontwo img {
-  width: 900px;
+  align-items: center;
+  padding: 100px;
+  width: 100%;
 }
 
 span {
@@ -112,21 +93,16 @@ span {
 iframe {
   z-index: 3;
   position: absolute;
-  height: 320px;
-  width: 700px;
   padding: 0px;
   border-width: 0px;
   margin: 0px;
   left: 0px;
   top: 0px;
   touch-action: pan-x pan-y;
-  max-width: 100%;
   display: block;
-}
-
-.titleNeumomed {
-  font-size: 50px;
-  font-weight: 900;
+  max-width: 100%;
+  min-width: 100%;
+  height: 200px;
 }
 
 .textone {
@@ -137,13 +113,13 @@ iframe {
   background-color: #3A899A;
   color: white;
   padding: 20px;
-  height: 60vh;
+  align-items: center;
+  max-height: 100%;
 }
 
 footer {
   background-color: #3A899A;
   color: white;
-  height: 7vh;
   font-weight: 900;
 }
 
@@ -157,6 +133,73 @@ footer {
 }
 
 .sectionthree {
-  margin: 150px;
-  align-items: center;
+  margin: 0px;
+  padding: 100px;
+  background: #fafafa;
 }
+
+.sectionfour p {
+  margin: 0px;
+}
+
+#whatsapp{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+}
+
+.mdc-card {
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0,0,0,.12);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+  justify-content: left;
+  align-items: center;
+  width: 330px;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  list-style-type: square;
+  color: #366B82;
+}
+
+@media (max-width: 575.98px) { 
+  h1 {
+    font-size: 30px;
+  }
+
+  .sectiontwo {
+    padding: 10px;
+  }
+
+  .sectionthree {
+    padding: 10px;
+  }
+
+}
+
+
+@media (max-width: 767.98px) { 
+  .sectionthree {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+  }
+}
+
+
+@media (max-width: 991.98px) { 
+
+}
+
+
+@media (max-width: 1199.98px) { 
+
+}
+
