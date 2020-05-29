@@ -92,7 +92,7 @@ span {
 
 iframe {
   z-index: 3;
-  position: absolute;
+  position: relative;
   padding: 0px;
   border-width: 0px;
   margin: 0px;
@@ -102,7 +102,7 @@ iframe {
   display: block;
   max-width: 100%;
   min-width: 100%;
-  height: 200px;
+  height: 300px;
 }
 
 .textone {
@@ -159,7 +159,6 @@ footer {
   padding: 10px;
   justify-content: left;
   align-items: center;
-  width: 330px;
   margin: 10px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -180,6 +179,7 @@ li {
 
   .sectionthree {
     padding: 10px;
+    justify-content: center;
   }
 
 }
