@@ -95,50 +95,35 @@ function App() {
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-sm-12 col-md-12 col-lg-4">
-              <div className="mdc-card demo-card">
-                <div className="mdc-card-wrapper__text-section">
-                  <div className="demo-card__title text-primary font-weight-bold">Programas</div>
-                  <div className="demo-card__subhead">
-                    <ul>
-                      <li>Programa de EPOC y ASMA</li>
-                      <li>Programa de SAHOS</li>
-                      <li>Programa Dejar de Fumar</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>              
+              <div className="linetwo"></div>
+              <div><h3>Programas</h3></div>
+              <ul>
+                <li>Programa de EPOC y ASMA</li>
+                <li>Programa de SAHOS</li>
+                <li>Programa Dejar de Fumar</li>
+              </ul>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-4">
-              <div className="mdc-card demo-card">
-                <div className="mdc-card-wrapper__text-section">
-                  <div className="demo-card__title text-primary font-weight-bold">Terapias</div>
-                  <div className="demo-card__subhead">
-                    <ul>
-                      <li>Rehabilitación Pulmonar</li>
-                      <li>Terapia Miofuncional Orofacial</li>
-                      <li>Terapia Cognitivo Conductual</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>              
+              <div className="linetwo"></div>
+              <div><h3>Terapias</h3></div>
+              <ul>
+                <li>Rehabilitación Pulmonar</li>
+                <li>Terapia Miofuncional Orofacial</li>
+                <li>Terapia Cognitivo Conductual</li>
+              </ul>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-4 justify-content-center">
-              <div className="mdc-card demo-card">
-                <div className="mdc-card-wrapper__text-section">
-                  <div className="demo-card__title text-primary font-weight-bold">Consultas</div>
-                  <div className="demo-card__subhead">
-                    <ul>
-                      <li>Consulta de Neumología</li>
-                      <li>Consulta de Nutrición</li>
-                      <li>Consulta de Psicología</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>              
+              <div className="linetwo"></div>
+              <div><h3>Consultas</h3></div>
+              <ul>
+                <li>Consulta de Neumología</li>
+                <li>Consulta de Nutrición</li>
+                <li>Consulta de Psicología</li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>
+      </section >
       <section className="sectionfour">
         <div class="container justify-content-left display-block">
           <div class="row">
