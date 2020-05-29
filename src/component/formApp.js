@@ -14,7 +14,9 @@ class FormApp extends React.Component {
             })
             .then((Variables) => {
                 this.setState({ Variables: Variables })
+                console.log(Variables);
             })
+
     }
     render() {
         if (this.state.Variables.length > 0) {
