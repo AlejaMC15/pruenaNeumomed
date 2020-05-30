@@ -4,7 +4,9 @@ import Header from './component/header';
 import SectionOne from './component/sectionone';
 import SectionTwo from './component/sectiontwo';
 import SectionThree from './component/sectionthree';
-import SectionFour from './component/sectiongour';
+import SectionFour from './component/sectionfour';
+import SectionFive from './component/sectionfive';
+import Footer from './component/footer';
 
 function App() {
 
@@ -15,28 +17,8 @@ function App() {
       <SectionTwo />
       <SectionThree />      
       <SectionFour />
-      <section className="sectionfive">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="d-flex align-items-center">
-              <div className="col-sm-12 col-md-12 col-lg-3">
-                <h3>Medellín</h3>
-                <p>Calle 19A # 44-25 Local 206 Edificio Salud y Servicios.</p>
-              </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
-                <h3>Rionegro</h3>
-                <p>Carrera 55 A #35- 2027, piso 4 Cs 402-404  Torre 2, City Médica.</p>
-              </div>
-              <div className="col-sm-12 col-md-12 col-lg-6 p-0">
-                <iframe src="https://maps.google.com/maps?q=Neumomed&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" aria-label="Neumomed"></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer className="text-center">
-        <div><a className="text-white" href="https://neumomed.com/#/" rel="nofollow">Neumomed</a> | Todos los derechos reservados 2020</div>
-      </footer>
+      <SectionFive />
+      <Footer />
     </div >
   );
 }
