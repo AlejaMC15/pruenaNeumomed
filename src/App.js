@@ -1,11 +1,10 @@
 import React from 'react';
 import './index.css';
-import ControlledExpansionPanels from './component/form';
-import FormApp from './component/formApp';
 import Header from './component/header';
 import SectionOne from './component/sectionone';
 import SectionTwo from './component/sectiontwo';
 import SectionThree from './component/sectionthree';
+import SectionFour from './component/sectiongour';
 
 function App() {
 
@@ -15,12 +14,7 @@ function App() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />      
-      <section className="sectionfour">
-        <div className="container p-5">
-          <ControlledExpansionPanels />
-          <FormApp />
-        </div>
-      </section>
+      <SectionFour />
       <section className="sectionfive">
         <div className="container-fluid">
           <div className="row">
