@@ -14,8 +14,7 @@ function App() {
       <Header />
       <SectionOne />
       <SectionTwo />
-      <SectionThree />
-      
+      <SectionThree />      
       <section className="sectionfour">
         <div className="container p-5">
           <ControlledExpansionPanels />
