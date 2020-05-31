@@ -1,25 +1,22 @@
 import React from 'react';
 import './index.css';
 import Header from './component/header';
-import SectionOne from './component/sectionone';
-import SectionTwo from './component/sectiontwo';
-import SectionThree from './component/sectionthree';
-import SectionFour from './component/sectionfour';
-import SectionFive from './component/sectionfive';
-import Footer from './component/footer';
+import SectionOne from './component/Sectionone';
+import SectionTwo from './component/SectionTwo';
+import SectionThree from './component/SectionThree';
+import SectionFour from './component/SectionFour';
+import Footer from './component/Footer';
 
 function App() {
-
   return (
     <div className="App">
       <Header />
       <SectionOne />
       <SectionTwo />
-      <SectionThree />      
+      <SectionThree />
       <SectionFour />
-      <SectionFive />
       <Footer />
-    </div >
+    </div>
   );
 }
 
