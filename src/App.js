@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import Header from './component/header';
-import SectionOne from './component/Sectionone';
+import SectionOne from './component/SectionOne';
 import SectionTwo from './component/SectionTwo';
 import SectionThree from './component/SectionThree';
 import SectionFour from './component/SectionFour';
