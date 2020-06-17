@@ -31,6 +31,7 @@ function ControlledExpansionPanels({ sections }) {
 
   return (
     <div className={classes.root}>
+      {/*Recorrer secciones para imprimirlas*/}
       {Object.keys(sections).length &&
         Object.keys(sections).map((section) => (
           <ExpansionPanel
@@ -52,6 +53,7 @@ function ControlledExpansionPanels({ sections }) {
             {/* Description */}
             <ExpansionPanelDetails>
               <div>
+                {/*Iterar en cada variable e imprimir el nombre de cada una*/}
                 {sections[section].variables.length &&
                   sections[section].variables.map((variable) => (
                     <div key={variable.nombre}>
